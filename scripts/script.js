@@ -3,8 +3,10 @@ const Token = artifacts.require("Token");
 
 module.exports = async () => {
   try {
-    const Token = Token.deployed();
+    const token = Token.deployed();
     const dao = DAO.deployed();
+
+    //
   } catch (error) {
     console.log(error);
   }

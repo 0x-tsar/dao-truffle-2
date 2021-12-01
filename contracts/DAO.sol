@@ -30,7 +30,7 @@ contract DAO {
     uint256 public totalShares;
     IERC20 public token;
     uint256 constant CREATE_PROPOSAL_MIN_SHARE = 10 * 10**18;
-    uint256 constant VOTING_PERIOD = 15 minutes;
+    uint256 constant VOTING_PERIOD = 20 minutes;
 
     constructor(address _token) {
         token = IERC20(_token);
