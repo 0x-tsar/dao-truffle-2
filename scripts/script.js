@@ -6,6 +6,9 @@ module.exports = async () => {
     const token = Token.deployed();
     const dao = DAO.deployed();
 
+    const tx = await dao.methods;
+    console.log(tx);
+
     //
   } catch (error) {
     console.log(error);
