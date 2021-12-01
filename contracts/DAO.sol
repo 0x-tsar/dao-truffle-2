@@ -8,11 +8,13 @@ contract DAO {
         Yes,
         No
     }
+
     enum Status {
         Undecided,
         Approved,
         Rejected
     }
+
     struct Proposal {
         address author;
         bytes32 hash;
