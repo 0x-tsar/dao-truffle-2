@@ -5,6 +5,6 @@ module.exports = async (deployer) => {
   await deployer.deploy(Token);
   const token = await Token.deployed();
 
-  await deployer.deploy(DAO, token.addres);
+  await deployer.deploy(DAO, token.address);
   const dao = await DAO.deployed();
 };
