@@ -1,7 +1,7 @@
 require("dotenv").config();
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const mnemonic = proces.env.mnemonic;
-const url = proces.env.url;
+const mnemonic = process.env.mnemonic;
+const url = process.env.url;
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
