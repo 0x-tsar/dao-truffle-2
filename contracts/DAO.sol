@@ -29,7 +29,7 @@ contract DAO {
     mapping(address => uint256) public shares;
     uint256 public totalShares;
     IERC20 public token;
-    uint256 constant CREATE_PROPOSAL_MIN_SHARE = 1000 * 10**18;
+    uint256 constant CREATE_PROPOSAL_MIN_SHARE = 10 * 10**18;
     uint256 constant VOTING_PERIOD = 15 minutes;
 
     constructor(address _token) {
